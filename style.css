@@ -83,3 +83,16 @@
     white-space: pre-line;
     font-family: sans-serif;
 }
+
+.section-estatisticas{
+    background-color: rgb(184, 55, 55);
+    font-family: sans-serif;
+    color: white;
+    height: 150px;
+}
+.menu-estatisticas{
+    padding: 40px 0 30px 250px;
+    display: flex;
+    text-align: center;
+}
+
