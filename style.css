@@ -96,3 +96,37 @@
     text-align: center;
 }
 
+.icon-fim{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+.icon-fim img{
+    max-width: 100%;
+    width: 60px;
+    height: auto;
+    margin-left: 49%;
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.footer-informacoes{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 300px;
+    padding-top: 70px;
+}
+
+.footer-redes{
+    margin-left: 280px;
+}
+
+.footer-contatos{
+    margin-left: 280px;
+}
+
+.footer-links{
+    margin-left: 280px;
+}
