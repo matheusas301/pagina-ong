@@ -133,7 +133,7 @@ body{
         }
 
 .section-estatisticas{
-    background-color: rgb(244, 77, 77);
+    background-color: rgb(155, 63, 63);
     color: white;
     height: 150px;
     width: 100%;
@@ -163,7 +163,7 @@ body{
                 }
 
 .section-certificado{
-    background-color: rgb(68, 181, 68);
+    background-color: rgb(79, 165, 79);
     color: white;
     display: flex;
     align-items: center;
@@ -210,25 +210,26 @@ body{
 .footer-contatos{
     margin-left: 50px;
     padding-top: 70px;
-    
 }
-    .footer-contatos ul{
-        list-style: none;
-        color: white;
+    .lista-contatos {
         font-size: 18px;
-        
+        color: white;
     }
-        .footer-contatos img{
+        .lista-contatos li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-top: 8px;
+        }
+            .lista-contatos li img {
             max-width: 100%;
             width: 30px;
-            margin-top: 6px;
-        }
-        .footer-contatos ul li{
-            font-size: 15px;
-            color: #b5b5b5;
-            display: flex;
-            padding-top: 5px;
-        }
+            margin-right: 10px;
+            }
+                .texto-contatos {
+                font-size: 15px;
+                color: #b5b5b5;
+                }
 
 .footer-links{
     margin-left: 50px;
