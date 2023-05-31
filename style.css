@@ -121,12 +121,12 @@ body{
     display: flex;
     height: 300px;
     font-family: sans-serif;
+    width: 100%;
 }
 
 .footer-redes{
-    margin-left: 280px;
+    margin-left: 100px;
     padding-top: 70px;
-    display: flex;
 }
     .footer-redes ul{
         list-style: none;
@@ -143,29 +143,32 @@ body{
             }
 
 .footer-contatos{
-    margin-left: 280px;
+    margin-left: 50px;
     padding-top: 70px;
+    padding-bottom: 10px;
 }
-.footer-contatos ul{
-    list-style: none;
-}
-.footer-contatos img{
-    max-width: 100%;
-    width: 30px;
-    margin-top: 6px;
-}
+    .footer-contatos ul{
+        list-style: none;
+    }
+        .footer-contatos img{
+            max-width: 100%;
+            width: 30px;
+            margin-top: 6px;
+        }
 
 .footer-links{
-    margin-left: 280px;
+    margin-left: 50px;
     padding-top: 70px;
 }
 .footer-links ul{
     list-style: none;
 }
+.footer-links ul li{
+    margin-top: 6px;
+}
 
 .footer-texto{
     white-space: pre-line;
-    margin-left: 280px;
-    margin-right: 100px;
+    margin-left: 550px;
     padding-top: 35px;
 }
