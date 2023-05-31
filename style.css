@@ -53,7 +53,7 @@ body{
                     cursor: pointer;
                 }
                     .button-menu button{
-                        background-color: yellow;
+                        background-color: rgb(227, 227, 0);
                         border: 1px solid yellow;
                         border-radius: 10px;
                         width: 120px;
@@ -82,16 +82,33 @@ body{
         }
 
 .section-estatisticas{
-    background-color: rgb(184, 55, 55);
+    background-color: rgb(244, 77, 77);
     font-family: sans-serif;
     color: white;
     height: 150px;
+    width: 100%;
+    font-size: 20px;
 }
     .menu-estatisticas{
-        padding: 40px 0 30px 250px;
+        padding: 40px 0 30px 550px;
         display: flex;
         text-align: center;
     }
+        .primeira-estatistica  p{
+            font-size: 15px;
+            padding-right: 20px;
+            line-height: 1;
+        }
+            .segunda-estatistica p{
+                font-size: 15px;
+                
+                line-height: 1;
+            }
+                .terceira-estatistica p{
+                    font-size: 15px;
+                    padding-left: 20px;
+                    line-height: 1;
+                }
 
 .icon-fim{
     background-color: black;
