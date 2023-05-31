@@ -96,8 +96,9 @@ body{
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
+  background-color: rgb(227, 227, 0);
+  border-radius: 100%;
+  color: black;
   padding: 10px;
   cursor: pointer;
 }
