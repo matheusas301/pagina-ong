@@ -38,11 +38,11 @@ body{
             .menu ul li{
                 display: inline-block;
                 position: relative;
+
             }
                 .menu ul li > a{
                     display: block;
-                    font-family: sans-serif;
-                    font-size: 12px;
+                    font-size: 15px;
                     letter-spacing: 0;
                     font-weight: 600;
                     color: #20212b;
@@ -53,18 +53,22 @@ body{
                     cursor: pointer;
                 }
                     .button-menu button{
+                        font-size: 15px;
                         background-color: rgb(227, 227, 0);
                         border: 1px solid yellow;
                         border-radius: 10px;
-                        width: 120px;
-                        height: 50px;
+                        width: 150px;
+                        height: 55px;
                         margin-right: 50px;
                         cursor: pointer;
                     }
 
+.section-slogan{
+    height: 790px;
+}
 .section-slogan img{
     max-width: 100%;
-    width: 1920px;
+    width: 100%;
     height: 790px;
 }
 
@@ -86,36 +90,136 @@ body{
             margin-right: 470px;
             white-space: pre-line;
             font-family: sans-serif;
+            color: #686868;
         }
 
 .section-estatisticas{
     background-color: rgb(244, 77, 77);
-    font-family: sans-serif;
     color: white;
     height: 150px;
     width: 100%;
     font-size: 20px;
 }
     .menu-estatisticas{
-        padding: 40px 0 30px 550px;
+        padding: 40px 0 30px 650px;
         display: flex;
         text-align: center;
     }
-        .primeira-estatistica  p{
+        .primeira-estatistica p{
             font-size: 15px;
+            color: rgba(255, 255, 255, 0.759);
             padding-right: 20px;
             line-height: 1;
         }
             .segunda-estatistica p{
                 font-size: 15px;
-                
+                color: rgba(255, 255, 255, 0.759);
                 line-height: 1;
             }
                 .terceira-estatistica p{
                     font-size: 15px;
+                    color: rgba(255, 255, 255, 0.759);
                     padding-left: 20px;
                     line-height: 1;
                 }
+
+.section-certificado{
+    background-color: green;
+    color: white;
+    display: flex;
+    align-items: center;
+    white-space: pre-line;
+}
+    .section-certificado img{
+        margin-left: 450px;
+    }
+        .section-certificado p{
+            
+        }
+
+.footer-informacoes{
+    background-color: black;
+    display: flex;
+    height: 300px;
+    font-family: sans-serif;
+    width: 100%;
+    font-size: 15px;
+}
+
+.footer-redes{
+    margin-left: 100px;
+    padding-top: 70px;
+}
+    .footer-redes ul{
+        list-style: none;
+        font-size: 18px;
+        color: white;
+    }
+        .footer-redes ul li{
+            padding-top: 5px;
+        }
+            .footer-redes button{
+                background-color: black;
+                border: 0;
+                cursor: pointer;
+                margin-top: 6px;
+            }
+                .footer-redes button img{
+                    max-width: 100%;
+                    width: 30px;
+                }
+
+.footer-contatos{
+    margin-left: 50px;
+    padding-top: 70px;
+    
+}
+    .footer-contatos ul{
+        list-style: none;
+        color: white;
+        font-size: 18px;
+        
+    }
+        .footer-contatos img{
+            max-width: 100%;
+            width: 30px;
+            margin-top: 6px;
+        }
+        .footer-contatos ul li{
+            font-size: 15px;
+            color: #b5b5b5;
+            display: flex;
+            padding-top: 5px;
+        }
+
+.footer-links{
+    margin-left: 50px;
+    padding-top: 70px;
+    width: 180px;
+}
+    .footer-links ul{
+        list-style: none;
+        color: white;
+        font-size: 18px;
+    }
+        .footer-links ul li{
+            color: #b5b5b5;
+            margin-top: 6px;
+            cursor: pointer;
+            font-size: 15px;
+            padding-top: 5px;
+        }
+
+.footer-texto{
+    margin-left: auto;
+    margin-right: 50px;
+    padding-top: 35px;
+    color: #b5b5b5;
+    white-space: pre-line;   
+}
+    .footer-texto a{
+        cursor: pointer;
+    }
 
 .icon-fim{
     background-color: black;
@@ -131,69 +235,3 @@ body{
         border-radius: 100%;
         padding: 2px;
     }
-
-.footer-informacoes{
-    background-color: black;
-    color: #b5b5b5;
-    display: flex;
-    height: 300px;
-    font-family: sans-serif;
-    width: 100%;
-    font-size: 15px;
-}
-
-.footer-redes{
-    margin-left: 100px;
-    padding-top: 70px;
-}
-    .footer-redes ul{
-        list-style: none;
-        font-size: 18px;
-    }
-        .footer-redes button{
-            background-color: black;
-            border: 0;
-            cursor: pointer;
-            margin-top: 6px;
-        }
-            .footer-redes button img{
-                max-width: 100%;
-                width: 30px;
-            }
-
-.footer-contatos{
-    margin-left: 50px;
-    padding-top: 70px;
-}
-    .footer-contatos ul{
-        list-style: none;
-        font-size: 18px;
-    }
-        .footer-contatos img{
-            max-width: 100%;
-            width: 30px;
-            margin-top: 6px;
-        }
-        .footer-contatos ul li{
-            font-size: 15px;
-        }
-
-.footer-links{
-    margin-left: 50px;
-    padding-top: 70px;
-}
-    .footer-links ul{
-        list-style: none;
-        font-size: 18px;
-    }
-        .footer-links ul li{
-            margin-top: 6px;
-            cursor: pointer;
-            font-size: 15px;
-        }
-
-.footer-texto{
-    white-space: pre-line;
-    margin-left: 650px;
-    padding-top: 35px;
-}
