@@ -59,12 +59,9 @@ body{
                         width: 120px;
                         height: 50px;
                         margin-right: 50px;
+                        cursor: pointer;
                     }
 
-.section-slogan{
-    padding: 0;
-    margin: 0;
-}
 .section-slogan img{
     max-width: 100%;
     width: 1920px;
@@ -74,18 +71,18 @@ body{
 .primeira-informacao{
     width: 100%;
     background-color: #e4e4e4;
-    height: 660px;
+    height: 700px;
     padding-top: 30px;
 }
     .primeira-informacao img{
         max-width: 100%;
         float: left;
         margin-left: 500px;
-        height: 600px;
+        height: 640px;
     }
         .texto p{
             font-size: 18px;
-            margin-left: 950px;
+            margin-left: 980px;
             margin-right: 470px;
             white-space: pre-line;
             font-family: sans-serif;
