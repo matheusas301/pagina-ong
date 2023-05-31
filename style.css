@@ -126,16 +126,41 @@ body{
 .footer-redes{
     margin-left: 280px;
     padding-top: 70px;
+    display: flex;
 }
+    .footer-redes ul{
+        list-style: none;
+    }
+        .footer-redes button{
+            background-color: black;
+            border: 0;
+            cursor: pointer;
+            margin-top: 6px;
+        }
+            .footer-redes button img{
+                max-width: 100%;
+                width: 30px;
+            }
 
 .footer-contatos{
     margin-left: 280px;
     padding-top: 70px;
 }
+.footer-contatos ul{
+    list-style: none;
+}
+.footer-contatos img{
+    max-width: 100%;
+    width: 30px;
+    margin-top: 6px;
+}
 
 .footer-links{
     margin-left: 280px;
     padding-top: 70px;
+}
+.footer-links ul{
+    list-style: none;
 }
 
 .footer-texto{
