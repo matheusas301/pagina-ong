@@ -61,6 +61,16 @@ body{
                         margin-right: 50px;
                     }
 
+.section-slogan{
+    padding: 0;
+    margin: 0;
+}
+.section-slogan img{
+    max-width: 100%;
+    width: 1920px;
+    height: 790px;
+}
+
 .primeira-informacao{
     width: 100%;
     background-color: #e4e4e4;
